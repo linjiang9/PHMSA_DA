@@ -1,0 +1,17 @@
+PHMSA_DA/
+├── data/
+│   ├── raw/                 # Original, immutable data dump
+│   ├── processed/           # Cleaned, processed data
+│   └── external/            # Data from third party sources
+├── notebooks/               # Jupyter notebooks
+├── src/                     # Source code
+│   ├── __init__.py
+│   ├── data/               # Scripts to download or generate data
+│   ├── features/           # Scripts to turn raw data into features
+│   └── visualization/      # Scripts to create visualizations
+├── tests/                  # Unit tests
+├── docs/                   # Documentation
+├── requirements.txt        # Project dependencies
+├── setup.py               # Make project installable
+├── .gitignore             # Git ignore file
+└── README.md              # Project description 
